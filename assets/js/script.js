@@ -19,11 +19,11 @@ function contar(callback) {
             }
         } else if (i > f) {
             for (let s = i; s >= f; s -= p) {
-                res.textContent += `${s} \u{1F448}`;
+                res.textContent += `${s}  \u{1F448} `;
             }
         }
     }
-    res.textContent += ` \u{1F3C1}`;
+    res.textContent += `  \u{1F3C1}`;
     inicio.value = " ";
     passo.value = " ";
     fim.value = " ";
