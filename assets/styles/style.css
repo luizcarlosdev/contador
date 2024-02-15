@@ -80,6 +80,7 @@ section .input-group input[type=number]{
     background-color: rgba(128, 128, 128, 0.281);
     color: #fff;
     font-size: 1.1rem;
+    border: none;
 }
 
 section .input-group input[type=number]:focus-visible{
