@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos fazer um contagem</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <section>
+            <div class="conjunto">
+                <h1>Contador</h1>
+                <div class="input-group">
+                    <div class="input">
+                        <label for="inicio">Início:</label>
+                        <input type="number" name="inicio" id="inicio" required placeholder="Aqui começa tudo...">
+                    </div>
+                    <div class="input">
+                        <label for="passo">Passo:</label>
+                        <input type="number" name="passo" id="passo" required placeholder="De... Em...">
+                    </div>
+                    <div class="input">
+                        <label for="fim">Fim:</label>
+                        <input type="number" name="fim" id="fim" required placeholder="Termina aqui...">
+                    </div>
+                </div>
+                <input type="button" value="Contar" onclick="contar()">
+                <div id="res"></div>
+            </div>
+        </section>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
