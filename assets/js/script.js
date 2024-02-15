@@ -27,5 +27,4 @@ function contar(callback) {
     inicio.value = " ";
     passo.value = " ";
     fim.value = " ";
-    inicio.focus();
 }
